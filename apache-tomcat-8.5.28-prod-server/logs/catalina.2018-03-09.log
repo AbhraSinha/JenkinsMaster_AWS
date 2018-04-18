@@ -1,0 +1,33 @@
+09-Mar-2018 05:58:46.578 INFO [http-nio-8081-exec-8] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:426)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+09-Mar-2018 19:09:09.453 WARNING [http-nio-8081-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+09-Mar-2018 19:09:09.508 WARNING [http-nio-8081-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+09-Mar-2018 19:09:09.509 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+09-Mar-2018 19:09:09.560 WARNING [http-nio-8081-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+09-Mar-2018 19:09:09.804 WARNING [http-nio-8081-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+09-Mar-2018 19:09:09.852 WARNING [http-nio-8081-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+09-Mar-2018 19:09:09.884 WARNING [http-nio-8081-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+09-Mar-2018 19:09:09.957 WARNING [http-nio-8081-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+09-Mar-2018 19:09:10.170 WARNING [http-nio-8081-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+09-Mar-2018 19:09:10.206 WARNING [http-nio-8081-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+09-Mar-2018 19:09:10.245 WARNING [http-nio-8081-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+09-Mar-2018 19:09:10.288 WARNING [http-nio-8081-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+09-Mar-2018 19:09:10.420 WARNING [http-nio-8081-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+09-Mar-2018 19:09:10.463 WARNING [http-nio-8081-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+09-Mar-2018 19:09:10.485 WARNING [http-nio-8081-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+09-Mar-2018 19:09:10.685 WARNING [http-nio-8081-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+09-Mar-2018 22:51:22.407 INFO [http-nio-8081-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+09-Mar-2018 22:51:22.416 INFO [http-nio-8081-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/ec2-user/apache-tomcat-8.5.28-prod-server/webapps/webapp.war]
+09-Mar-2018 22:51:22.443 INFO [http-nio-8081-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/ec2-user/apache-tomcat-8.5.28-prod-server/webapps/webapp.war] has finished in [27] ms

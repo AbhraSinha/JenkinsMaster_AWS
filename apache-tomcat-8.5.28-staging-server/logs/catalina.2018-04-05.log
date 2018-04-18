@@ -1,0 +1,54 @@
+05-Apr-2018 01:40:22.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+05-Apr-2018 01:40:22.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+05-Apr-2018 01:40:22.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+05-Apr-2018 01:40:22.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Apr-2018 01:40:22.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.81-35.56.amzn1.x86_64
+05-Apr-2018 01:40:22.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Apr-2018 01:40:22.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.161.x86_64/jre
+05-Apr-2018 01:40:22.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_161-mockbuild_2017_12_19_23_46-b00
+05-Apr-2018 01:40:22.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Apr-2018 01:40:22.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ec2-user/apache-tomcat-8.5.28-staging-server
+05-Apr-2018 01:40:22.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ec2-user/apache-tomcat-8.5.28-staging-server
+05-Apr-2018 01:40:22.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ec2-user/apache-tomcat-8.5.28-staging-server/conf/logging.properties
+05-Apr-2018 01:40:22.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Apr-2018 01:40:22.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Apr-2018 01:40:22.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Apr-2018 01:40:22.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Apr-2018 01:40:22.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ec2-user/apache-tomcat-8.5.28-staging-server
+05-Apr-2018 01:40:22.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ec2-user/apache-tomcat-8.5.28-staging-server
+05-Apr-2018 01:40:22.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ec2-user/apache-tomcat-8.5.28-staging-server/temp
+05-Apr-2018 01:40:22.561 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Apr-2018 01:40:22.768 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+05-Apr-2018 01:40:22.810 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Apr-2018 01:40:22.837 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Apr-2018 01:40:22.839 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Apr-2018 01:40:22.843 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1371 ms
+05-Apr-2018 01:40:22.920 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Apr-2018 01:40:22.920 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+05-Apr-2018 01:40:22.948 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/webapp.war]
+05-Apr-2018 01:40:23.921 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/webapp.war] has finished in [965] ms
+05-Apr-2018 01:40:23.923 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/examples]
+05-Apr-2018 01:40:24.707 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/examples] has finished in [785] ms
+05-Apr-2018 01:40:24.710 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/docs]
+05-Apr-2018 01:40:24.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/docs] has finished in [39] ms
+05-Apr-2018 01:40:24.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/host-manager]
+05-Apr-2018 01:40:24.807 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/host-manager] has finished in [58] ms
+05-Apr-2018 01:40:24.807 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/ROOT]
+05-Apr-2018 01:40:24.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/ROOT] has finished in [42] ms
+05-Apr-2018 01:40:24.850 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/manager]
+05-Apr-2018 01:40:24.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ec2-user/apache-tomcat-8.5.28-staging-server/webapps/manager] has finished in [65] ms
+05-Apr-2018 01:40:24.926 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+05-Apr-2018 01:40:24.954 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Apr-2018 01:40:24.956 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2112 ms
+05-Apr-2018 23:09:42.219 WARNING [http-nio-8090-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+05-Apr-2018 23:09:42.273 WARNING [http-nio-8090-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+05-Apr-2018 23:09:42.279 WARNING [http-nio-8090-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+05-Apr-2018 23:09:42.639 WARNING [http-nio-8090-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+05-Apr-2018 23:09:42.674 WARNING [http-nio-8090-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+05-Apr-2018 23:09:42.771 WARNING [http-nio-8090-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+05-Apr-2018 23:09:42.990 WARNING [http-nio-8090-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+05-Apr-2018 23:09:43.020 WARNING [http-nio-8090-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+05-Apr-2018 23:09:43.072 WARNING [http-nio-8090-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+05-Apr-2018 23:09:43.248 WARNING [http-nio-8090-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+05-Apr-2018 23:09:43.267 WARNING [http-nio-8090-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+05-Apr-2018 23:09:43.350 WARNING [http-nio-8090-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]

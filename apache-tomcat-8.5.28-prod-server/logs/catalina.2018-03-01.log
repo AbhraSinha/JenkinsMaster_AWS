@@ -1,0 +1,41 @@
+01-Mar-2018 11:46:36.346 SEVERE [ajp-nio-8010-exec-11] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+01-Mar-2018 11:46:36.471 SEVERE [ajp-nio-8010-exec-12] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+01-Mar-2018 11:46:36.511 SEVERE [ajp-nio-8010-exec-13] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [1284]
+01-Mar-2018 11:46:36.513 INFO [http-nio-8081-exec-18] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:533)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+01-Mar-2018 11:46:36.528 SEVERE [ajp-nio-8010-exec-14] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [3338]
+01-Mar-2018 11:46:36.552 SEVERE [ajp-nio-8010-exec-15] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [20304]
+01-Mar-2018 11:46:36.568 SEVERE [ajp-nio-8010-exec-16] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [20304]
+01-Mar-2018 11:46:36.587 SEVERE [ajp-nio-8010-exec-17] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [32768]
+01-Mar-2018 11:46:36.605 SEVERE [ajp-nio-8010-exec-18] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [30]
+01-Mar-2018 11:46:36.622 SEVERE [ajp-nio-8010-exec-19] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [12]
+01-Mar-2018 11:46:36.639 SEVERE [ajp-nio-8010-exec-20] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18501]
+01-Mar-2018 11:46:36.658 SEVERE [ajp-nio-8010-exec-11] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [5635]
+01-Mar-2018 11:46:36.675 SEVERE [ajp-nio-8010-exec-12] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [0]
+01-Mar-2018 11:46:36.691 SEVERE [ajp-nio-8010-exec-13] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [0]
+01-Mar-2018 11:46:36.709 SEVERE [ajp-nio-8010-exec-14] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [27648]
+01-Mar-2018 11:46:36.726 SEVERE [ajp-nio-8010-exec-15] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [356]
+01-Mar-2018 11:46:36.743 SEVERE [ajp-nio-8010-exec-16] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [12300]
+01-Mar-2018 11:46:36.760 SEVERE [ajp-nio-8010-exec-17] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [20304]
+01-Mar-2018 11:46:36.776 SEVERE [ajp-nio-8010-exec-18] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [21582]
+01-Mar-2018 11:46:36.795 SEVERE [ajp-nio-8010-exec-19] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [768]
+01-Mar-2018 11:46:36.812 SEVERE [ajp-nio-8010-exec-20] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [17517]
+01-Mar-2018 11:46:36.829 SEVERE [ajp-nio-8010-exec-11] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [14848]
+01-Mar-2018 11:46:36.847 SEVERE [ajp-nio-8010-exec-12] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [256]
+01-Mar-2018 11:46:36.865 SEVERE [ajp-nio-8010-exec-13] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [90]
+01-Mar-2018 11:46:36.882 SEVERE [ajp-nio-8010-exec-14] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [3]
+01-Mar-2018 11:46:36.899 SEVERE [ajp-nio-8010-exec-15] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [37888]
+01-Mar-2018 11:47:39.476 SEVERE [ajp-nio-8010-exec-16] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [32768]
+01-Mar-2018 11:47:44.508 SEVERE [ajp-nio-8010-exec-18] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [5635]

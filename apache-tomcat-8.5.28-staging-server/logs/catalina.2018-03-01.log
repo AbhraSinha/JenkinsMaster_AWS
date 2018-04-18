@@ -1,0 +1,35 @@
+01-Mar-2018 11:46:36.347 SEVERE [ajp-nio-8009-exec-22] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+01-Mar-2018 11:46:36.472 SEVERE [ajp-nio-8009-exec-23] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [5635]
+01-Mar-2018 11:46:36.510 SEVERE [ajp-nio-8009-exec-24] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [32926]
+01-Mar-2018 11:46:36.527 SEVERE [ajp-nio-8009-exec-25] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+01-Mar-2018 11:46:41.498 INFO [http-nio-8090-exec-32] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:533)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+01-Mar-2018 11:47:44.507 SEVERE [ajp-nio-8009-exec-28] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [5635]
+01-Mar-2018 17:26:15.306 WARNING [http-nio-8090-exec-33] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+01-Mar-2018 17:26:15.355 WARNING [http-nio-8090-exec-34] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+01-Mar-2018 17:26:15.401 WARNING [http-nio-8090-exec-35] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+01-Mar-2018 17:26:15.661 WARNING [http-nio-8090-exec-35] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+01-Mar-2018 17:26:15.705 WARNING [http-nio-8090-exec-37] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+01-Mar-2018 17:26:15.738 WARNING [http-nio-8090-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+01-Mar-2018 17:26:15.758 WARNING [http-nio-8090-exec-30] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+01-Mar-2018 17:26:15.963 WARNING [http-nio-8090-exec-29] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+01-Mar-2018 17:26:15.982 WARNING [http-nio-8090-exec-30] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+01-Mar-2018 17:26:16.032 WARNING [http-nio-8090-exec-31] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+01-Mar-2018 17:26:16.041 WARNING [http-nio-8090-exec-33] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+01-Mar-2018 17:26:16.270 WARNING [http-nio-8090-exec-34] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+01-Mar-2018 17:26:16.327 WARNING [http-nio-8090-exec-37] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+01-Mar-2018 17:26:16.418 WARNING [http-nio-8090-exec-30] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+01-Mar-2018 17:26:16.426 WARNING [http-nio-8090-exec-32] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+01-Mar-2018 17:26:18.141 WARNING [http-nio-8090-exec-32] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
